@@ -5,4 +5,9 @@ class Student < User
     @knowledge = []
   end
 
+
+  def learn (string)
+    @knowledge = Teacher.teach
+  end
+
 end
