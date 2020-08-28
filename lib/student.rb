@@ -7,7 +7,6 @@ class Student < User
 
 
   def learn (Teacher.teach)
-
     knowledge << string
   end
 
