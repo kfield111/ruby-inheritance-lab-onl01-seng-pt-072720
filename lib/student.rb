@@ -7,7 +7,7 @@ class Student < User
 
 
   def learn (Teacher.teach)
-    knowledge << string
+    knowledge << Teacher.teach
   end
 
 end
